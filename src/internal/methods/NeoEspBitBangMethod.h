@@ -365,7 +365,7 @@ typedef NeoEsp32BitBangWs2805InvertedMethod NeoEsp32BitBangWs2814InvertedNoIntrM
 typedef NeoEsp32BitBangTm1814InvertedMethod NeoEsp32BitBangTm1914InvertedNoIntrMethod;
 typedef NeoEsp32BitBangSk6812InvertedMethod NeoEsp32BitBangLc8812InvertedNoIntrMethod;
 
-#if defined(CONFIG_IDF_TARGET_ESP32C6) || defined(CONFIG_IDF_TARGET_ESP32H2)
+#if defined(CONFIG_IDF_TARGET_ESP32H2)
 // 
 // Esp32 C6 && H2 currently use BitBang as the default until other support
 // is created, as they are not compatible with older generation chips
